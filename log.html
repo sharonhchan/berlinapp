@@ -1,0 +1,78 @@
+<html>
+<head>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<style type="text/css">
+		input {
+			width: 700px;
+			height: 100px; 
+			background: rgb(63, 170, 179);
+			font-size: 120%;
+			border-left: none;
+			border-right: none; 
+			border-top: none;
+			border-bottom-color: #FF5C5D ;
+			border-radius: 10px;
+		}
+		h2 { 
+			font-family: 'Montserrat', sans-serif; 
+			font-size: 24px;
+			font-weight: 500;
+			color: #F7F4F4;
+			text-align: center;
+			letter-spacing: 1px; 
+			line-height: 100px; 
+		 }
+		body {
+			margin: 0;
+			padding: 0;
+			background: #40C0CB;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 200;
+			font-size: 20px; 
+			color: #414042;
+		}
+		#ui {
+		margin: 35vh 10vw; 
+		}
+		ul li {
+			list-style: none;
+		}
+		.top {
+			box-shadow: 5px -5px 5px -1px #ffffff;
+		}
+
+		.button {
+			cursor: pointer;
+			background: #FF5C5D;
+			display: block;
+			width: 700px;
+			height: 100px;
+			border-radius: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="ui">
+	<form action="#">
+		<ul>
+			<li><label>Name<br /> <br/> <input type="text" name="name"></label></li>
+			<br/> 
+			<br/> 
+			<li><label>Email<br /> <br/> <input type="text" name="email"></label></li>
+			<br/> 
+			<br/> 
+			<li> <div class="button top" id="sign-in"> <h2> SIGN-IN </h2></div> </li>
+		</ul>
+	</form> 
+
+	</div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#sign-in").click(function(){
+			window.location.href = "berghain.html";
+		})
+	});
+</script>
+</html>
