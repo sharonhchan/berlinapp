@@ -1,0 +1,174 @@
+<html lang="en">
+<head>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<style type="text/css">
+
+		h1{ 
+			font-family: 'Montserrat', sans-serif; 
+			font-size: 100px;
+			font-weight: 500;
+			line-height: 110px; 
+			text-align: left; 
+			position: absolute;
+			left: 65px;
+			top: 130px;
+		 }
+		h2{
+			font-family: 'Montserrat', sans-serif; 
+			font-size: 40px;
+			font-weight: 300;
+			line-height: 50px;
+			position: absolute; 
+			left: 65px;
+			top: 420px;
+		 }
+		 h3 { 
+		 	position: relative;
+		 	top: 500px;
+		 	left: 260px;
+			font-family: 'Roboto', sans-serif; 
+			color: #2B2B2B;
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 20px;
+			max-width: 375px;
+		  }
+		img { 
+			position: relative;
+			object-fit: cover;
+			top: -180px;
+			max-width: 5000px;
+			min-height: 650px;
+			width: 100%;
+			height: auto;
+		 }
+		img.sharon { 
+			position: relative;
+			top: 640px;
+			left: 65px;
+			max-width: 180px;
+			min-height: 130px;
+			width: 100%;
+			height: auto;
+		 }
+		 p { 
+			font-family: 'Roboto', sans-serif; 
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 20px;
+			left: 65px;
+			width: 850px;
+			position: relative;
+			top: 0px;
+		 }
+		body {
+			width: 100%;
+			color: #F7F4F4;
+			letter-spacing: 1.5px;
+			margin: 0;
+			padding: 0;
+			background: #FF5C5D;
+
+		}
+		hr { 
+			background-color: #FF8485;
+			height: 3px;
+			border: none;
+			width: 850px;
+			position: relative;
+			top: 630px;
+		 }
+		hr.bottom { 
+			background-color: #FF8485;
+			height: 3px;
+			border: none;
+			width: 850px;
+			position: relative; 
+			top: -270px;
+			right: 0px;
+		 }
+		.iconbox {
+			width: 250px;
+			height: 250px;
+			position: relative;
+			top: -75px;
+			left: 690px;
+		}
+
+		.icon {
+			height: 200px;
+			width: 200px;
+			display: block;
+			float: left;
+			object-fit: contain;
+			position: static;
+		}
+		.verticalLine { 
+			position: relative;
+			top: 350px;
+			left: 650px;
+			background-color: #FF8485;
+			height: 200px; 
+			border: none;
+			width: 3px;
+		}
+		div.scroll { 
+		overflow: hidden;
+		text-align: justify;
+		width: 850px;
+		 }
+		#ui {
+			margin: 65vh 35vw; 
+		}
+	</style>
+</head>
+<body>
+	<! - - heading - -> 
+	<h1> Berghain vs <br/> the Bürgeramt<br/> </h1>
+	<h2> <i> Why is the Bürgeramt’s line as long as <br/> Berghain’s? </i> </h2> 
+
+	<!- - line - -> 
+	<div class="line"> 
+	<hr align= "center" noshade> </hr> </div>
+	
+	<!- - Sharo n image - - > 
+	<img class="sharon" src ="Sharon.png"> 
+
+	<h3> 28. Juni 2017 <br/> in&nbsp;<i>VISAs/Papierkram </i> </h3>
+
+	<!- - vertical line - -> 
+	<div class="verticalLine"> </div>
+
+	<!- - icons - - > 
+
+	<div class="iconbox"> <img class="icon" src="Share Icons.png">
+	</div>
+
+	
+	<!- - line - -> 
+	<div class="line"> 
+	<hr class="bottom" align= "center"> </hr> </div>
+
+	<div class="img" class="scroll"> 
+	<img src = "long version.jpg"> 
+
+	<! - - paragraph text - - > 
+	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+	<br/> 
+	<p> 
+	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. </p>
+	<br/> 
+	<p> 
+	Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+	</p>
+	</div>
+</body>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#btn-circle").click(function(){
+			window.location.href = "1article.html";
+		})
+	});
+</script>
+</html>
