@@ -1,0 +1,56 @@
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,500,600|Roboto:300,300i,400,400i" rel="stylesheet">
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<style type="text/css">
+		h1{ 
+			font-size: 24px;
+			font-weight: 500;
+			letter-spacing: 1.5px; 
+			line-height: 50px; 
+			text-align: center; 
+			color: #F7F4F4;
+		 }
+		body {
+			font-family: 'Montserrat', sans-serif; 
+			margin: 0;
+			padding: 0;
+			background: #40C0CB;
+		}
+		#ui {
+			margin: 65vh 35vw; 
+		}
+		.button {
+			cursor: pointer;
+			background: #FF5C5D;
+			display: block;
+			width: 300px;
+			height: 50px;
+			border-radius: 10px;
+			box-shadow: 5px 5px 10px #5A5A5A; 
+		}
+/*
+	017610452276
+*/
+	</style>
+</head>
+<body>
+	<div id="ui">
+	<div class="button" id="sign"> <h1> SIGN ME UP </h1> </div>
+	<div class="button" id="log"> <h1> LOG-IN </h1> </div>
+	</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#sign").click(function(){
+			window.location.href = "sign.html";
+		})
+	});
+	$(document).ready(function(){
+		$("#log").click(function(){
+			window.location.href = "log.html";
+		})
+	});
+</script>
+</body>
+</html>
